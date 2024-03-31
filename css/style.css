@@ -1,0 +1,144 @@
+:root{
+--primary-font: "Abril Fatface", serif;
+--secondary-font: "Ubuntu", sans-serif;
+--body-font: "Open Sans", sans-serif;
+--primary-color: #0f2f44;
+--hover-color:#ffc712;
+--hover-background:#fff9e6;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    outline: 0;
+}
+body {
+    font-family: var(--body-font);
+}
+h1,h2{
+    font-family: var(--primary-font);
+    color: #0f2f44;
+}
+h3,h4,h5,h6,a,button{
+    font-family: var(--secondary-font);
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+    
+}
+.container {
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-center {
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+.w-50{
+    width: 50px;
+}
+.w-33{
+    width: calc(100% / 3);
+}
+
+#top_bar {
+    background-color:var(--primary-color) ;
+    color: #ffffff;
+    font-family: var(--secondary-font);
+}
+#top_bar p{
+    line-height: 24px;
+    padding: 13px 0;
+}
+ 
+#nav .menu ul li a {
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color:var(--primary-color);
+    font-weight: 500;
+    padding: 35.5px 18px;
+    display: inline-block;
+    transition: .5s;
+}
+#nav .menu ul li a:hover{
+    color: var(--hover-color);
+    background-color: var(--hover-background);
+}
+#nav .menu ul li button{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e0e0e0;
+    color: #999999;
+    background: none;
+    margin-left: 20px;
+    transition: .5s;
+    
+}
+#nav .menu ul li button:hover {
+    color: var(--hover-color);
+    background-color: var(--hover-background);
+}
+#hero{
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+#hero .inner_container{
+    width: 40%;
+}
+h3{
+  padding-bottom: 13px;
+  font-size: 30px;
+}
+h1{
+    padding-bottom: 15px;
+    font-size: 55px;
+}
+    
+h4{
+    color: #8484bf;
+    padding-bottom:30px ;
+    font-size: 24px;
+}
+p{
+    padding-bottom: 32px;
+  
+   
+}
+#hero a{
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color:#ffffff ;
+    background-color: #8484bf;
+    display:inline-block;
+    padding: 17.5px 20.5px;
+    border-radius: 8px;
+}
+#hero button{
+    width: 49px;
+    height: 49px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: none;
+    color: #8484bf;
+    font-size: 18px;
+    margin-left: 20px;
+}
